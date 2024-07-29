@@ -1,0 +1,49 @@
+
+div {
+    display: flex;
+} 
+h1, input, button {
+    text-align: center;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+div, h1 {
+    color: antiquewhite;
+}
+body {
+    background-color: black;
+}
+.coolTitle {
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 40px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: tomato;
+    text-shadow: 
+      -1px -1px 0 firebrick,
+      -2px -2px 0 firebrick,
+      -3px -3px 0 firebrick,
+      -4px -4px 0 firebrick,
+      -5px -5px 0 firebrick,
+      -6px -6px 0 firebrick,
+      -7px -7px 0 firebrick,
+      -8px -8px 0 firebrick,
+      -30px 20px 40px dimgrey;
+  }
+
+  button {
+    background-color: green;
+  }
